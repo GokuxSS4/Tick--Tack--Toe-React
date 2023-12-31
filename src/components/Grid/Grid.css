@@ -1,0 +1,20 @@
+.grid{
+    width:315px;
+    height:315px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:0.5rem
+}
+
+.turn-header{
+    color:white
+}
+
+.reset{
+    padding: 1rem;
+    border-radius: 10px;
+    border:none;
+    color: white;
+    background-color: var(--resetGreen);
+}
